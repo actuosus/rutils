@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*- 
 # ++DEPRECATED++ - Реализует простейшую транслитерацию используя Russian
-require "ru_translify"
+require "russian"
 
 module RuTils::TransliterationStub
   

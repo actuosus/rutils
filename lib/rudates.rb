@@ -80,6 +80,6 @@ module RuTils
       
     end
     
-    [Time, Date].each{|k| k.send(:include, RuStrftimeOverride) }
+    [Time, DateTime].each{|k| k.send(:include, RuStrftimeOverride) }
   end
 end
